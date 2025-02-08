@@ -1,5 +1,6 @@
 (ns gig.datomic-init
   (:require [datomic.api :as d]
+            [clojure.string :as str]
             [clojure.edn :as edn]
             [clojure.instant :as instant]))
 
@@ -10,7 +11,7 @@
 (def conn (d/connect db-uri))
 
 @(def schema (edn/read-string (slurp "resources/schema.edn")))
-3
+
 @(d/transact conn schema)
 
 ;; Sample data
@@ -43,5 +44,5 @@
   (d/delete-database db-uri))
 
 (comment
-  (clean-db) 
+  (clean-db)
   (d/create-database db-uri))
