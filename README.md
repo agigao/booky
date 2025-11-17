@@ -14,8 +14,8 @@ This is a learning project that implements the same library system in both Datom
 
 ## Blog Series
 
-1. [Datomic vs PostgreSQL: Data Modeling Fundamentals (Part 1)](https://flexiana.com/2023/08/side-by-side-datomic-and-postgresql-part-1-2) - How each database approaches schema design and basic operations
-2. [Datomic vs PostgreSQL: Time Travel and Historical Data (Part 2)](https://flexiana.com/2025/02/side-by-side-datomic-and-postgresql-part-2) - Exploring Datomic's built-in temporal features vs PostgreSQL solutions
+1. [Datomic vs PostgreSQL: Data Modeling Fundamentals (Part 1)](https://flexiana.com/news/2023/08/side-by-side-datomic-and-postgresql-part-1-2) - How each database approaches schema design and basic operations
+2. [Datomic vs PostgreSQL: Time Travel and Historical Data (Part 2)](https://flexiana.com/news/2025/02/side-by-side-datomic-and-postgresql-part-2) - Exploring Datomic's built-in temporal features vs PostgreSQL solutions
 3. Datomic vs PostgreSQL: Deep Dive into Querying and Rules (Part 3) - Advanced query patterns and rule systems
 4. Datomic vs PostgreSQL: Recursive and Graph Queries (Part 4) - Handling complex relationships and hierarchies
 5. Datomic vs PostgreSQL: Production Architecture and Performance (Part 5) - Real-world deployment and optimization
